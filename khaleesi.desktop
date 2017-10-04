@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Khaleesi
+GenericName=Khaleesi
+Comment=Khaleesi
+Categories=GTK;Utility;
+Exec=electron .
+Icon=app/assets/icon.png
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=Khaleesi
+X-GNOME-Keywords=task;unisem;
+Name[en_US]=Khaleesi

@@ -1,0 +1,47 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+body > .loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999999;
+  background: #fefefe;
+}
+
+@keyframes blink {
+    0% { opacity: 0.1; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 0.1; }
+    100% { opacity: 1; }
+}
+
+.loader .logo {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-animation: blink 2s ease-in-out infinite alternate;
+  animation: blink 2s ease-in-out infinite alternate;
+}
+
+.hide {
+  display: none;
+}
+
+#view {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0;
+}

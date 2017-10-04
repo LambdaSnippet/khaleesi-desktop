@@ -1,0 +1,16 @@
+{
+  "name"    : "Khaleesi App",
+  "version" : "0.1.0",
+  "description": "Administrador de Proyectos, Tareas e Issues",
+  "main"    : "app/js/main.js",
+  "repository": "https://github.com/LambdaSnippet/khaleesi-desktop",
+  "keywords": [
+    "task",
+    "khaleesi",
+    "unisem",
+    "linux"
+  ],
+  "private": true,
+  "author": "Jorge Hernández <iam@jorgeluis.com.mx",
+  "license": "MIT"
+}
