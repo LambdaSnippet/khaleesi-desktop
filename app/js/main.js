@@ -4,7 +4,7 @@ const path = require('path')
 const url = require('url')
 const iconPath = path.join(__dirname, '../assets/icon.png');
 const window_width = 1280;
-const window_height = 520;
+const window_height = 620;
 const debugMode = false;
 
 let appIcon = null;

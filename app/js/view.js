@@ -4,9 +4,9 @@ var originalHref = 'http://khaleesi.unisem.mx';
 
 view.addEventListener('load', function () {
   var winFrame = this.contentWindow;
-  
-  if (winFrame.location.href == 'http://khaleesi.unisem.mx') {
-    winFrame.location.href = 'http://khaleesi.unisem.mx/admin/';
+  console.log(winFrame.location.href)
+  if (winFrame.location.href == 'http://khaleesi.unisem.mx/admin/') {
+    winFrame.location.href = 'http://khaleesi.unisem.mx/admin/track/tarea/?all=&status__exact=0';
   } else {
     loader.className = 'loader hide';
   }
